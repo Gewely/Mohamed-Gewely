@@ -1,1 +1,285 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#050505"/><title>GR86 — GR DNA</title><link rel="stylesheet" href="./styles.css"/><script type="importmap">{"imports":{"react":"https://esm.sh/react@19.1.1","react-dom/client":"https://esm.sh/react-dom@19.1.1/client","htm":"https://esm.sh/htm@3.1.1","gsap":"https://esm.sh/gsap@3.13.0","gsap/ScrollTrigger":"https://esm.sh/gsap@3.13.0/ScrollTrigger"}}</script></head><body><div id="root"></div><script type="module" src="./app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>GR86 — Cinematic Rebuild Preview</title>
+  <!-- live-v4 2026-08-18 -->
+  <meta name="theme-color" content="#050505"/>
+  <link rel="stylesheet" href="./styles.css?v=4">
+</head>
+<body class="noise">
+<div class="entry" id="entry">
+  <div class="entry__inner">
+    <div class="brand">
+      <div class="grbox"><span>G</span><span>R</span></div>
+      <span>GR86 / Performance Journey</span>
+    </div>
+    <div class="lights">
+      <span class="light" data-light="1"></span>
+      <span class="light" data-light="2"></span>
+      <span class="light" data-light="3"></span>
+      <span class="light" data-light="4"></span>
+      <span class="light" data-light="5"></span>
+    </div>
+    <h1>PURE SPORTS CAR.<br><em>PURE CONNECTION.</em></h1>
+    <p>A rebuilt cinematic preview: proper entry, animated sections, story, gallery, grades, and a film-like exit inspired by GT and GR performance journeys.</p>
+    <div class="entry__line"><i id="entryProgress"></i></div>
+    <button class="skip" id="skipEntry">Skip intro</button>
+  </div>
+</div>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox__close" id="lightboxClose">Close</button>
+  <img id="lightboxImage" src="" alt="GR86 gallery image"/>
+</div>
+
+<div class="page">
+  <header class="topbar" id="topbar">
+    <div class="logoGroup">
+      <div class="grbox" style="width:62px;height:34px"><span style="font-size:18px">G</span><span style="font-size:18px">R</span></div>
+      <div class="toyota">GR86</div>
+    </div>
+    <nav class="navlinks">
+      <a class="active" href="#hero">Overview</a>
+      <a href="#story">Story</a>
+      <a href="#dna">Performance</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#grades">Grades</a>
+      <a href="#finale">Finale</a>
+    </nav>
+    <div class="topActions">
+      <button class="pill">Test Drive</button>
+      <button class="pill red">Build</button>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__scan"></div>
+    <div class="hero__content">
+      <div class="hero__eyebrow reveal"><i></i><span>GR86 • Toyota Gazoo Racing</span></div>
+      <h2 class="reveal">PURE SPORTS CAR.<br><em>PURE CONNECTION.</em></h2>
+      <div class="hero__sub reveal">A sharper, cinematic page direction: one fluid performance journey with atmosphere, pace, imagery and emotion — not a stack of generic blocks.</div>
+      <div class="hero__cta reveal">
+        <button class="pill red">Build</button>
+        <button class="pill">Book Test Drive</button>
+        <button class="pill" onclick="document.getElementById('gallery').scrollIntoView({behavior:'smooth'})">Explore Gallery</button>
+      </div>
+    </div>
+    <div class="hero__scroll"><i></i><span>Scroll to drive</span></div>
+
+    <div class="grDock">
+      <div class="grDock__left">
+        <div style="font-weight:700">Toyota<br><span style="font-weight:900;font-size:22px;letter-spacing:-.04em">GR86</span></div>
+        <nav class="grDock__nav">
+          <a href="#hero">Overview</a>
+          <a href="#story">Story</a>
+          <a href="#grades">Grades</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#dna">Performance</a>
+          <a href="#finale">Finale</a>
+        </nav>
+      </div>
+      <div class="grDock__right">
+        <div class="grDock__price">Starting from 162,900 AED</div>
+        <button class="pill">Test Drive</button>
+        <button class="pill red">Build</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="story" id="story">
+    <div class="wrap storyIntro">
+      <div class="sectionTag reveal"><i></i><span>Story / Shift the Story</span></div>
+      <div class="sectionTitle reveal">ANIMATED, EDITORIAL,<br>AND <span style="color:var(--red)">DRIVER-LED.</span></div>
+      <div class="sectionText reveal">Instead of flat cards, the GR86 story should feel like a film sequence. The user scrolls through the philosophy of the car: low, light, balanced, rear-wheel drive, and completely focused on the next input.</div>
+    </div>
+    <div class="storyPin" id="storyPin">
+      <div class="storyStage">
+        <div class="storyPanel active" data-panel="0">
+          <div class="storyMedia"><img src="https://www.motorlegend.com/images-voiture/hd/toyota-gr86-2-4-234-ch-136252.jpg" alt="GR86 low centre of gravity"/></div>
+          <div class="storyCopy">
+            <div>
+              <div class="storyStep"><b>1</b><span>Low centre of gravity</span></div>
+              <h3>LOW BY DESIGN.</h3>
+              <p>A sports car that starts low feels different before the first corner. The mass sits lower, the posture is tighter, and the body language is already communicating confidence.</p>
+            </div>
+            <div class="storyShift">
+              <span class="active">1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>R</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="storyPanel" data-panel="1">
+          <div class="storyMedia"><img src="https://global.toyota/pages/news/images/2021/10/28/0900/rendition/20211028_01_19_W610_H407.jpg" alt="GR86 chassis performance"/></div>
+          <div class="storyCopy">
+            <div>
+              <div class="storyStep"><b>2</b><span>Light & balanced</span></div>
+              <h3>LIGHT. BALANCED. PRECISE.</h3>
+              <p>Performance here is not noise. The chassis, driveline and weight discipline work together to make the car feel immediate — every input travelling with less delay and more clarity.</p>
+            </div>
+            <div class="gearViz">
+              <div class="gearLine v"></div><div class="gearLine h"></div>
+              <div class="gearCircle small" style="left:14%;top:24%">R</div>
+              <div class="gearCircle small hot" style="left:36%;top:24%">1</div>
+              <div class="gearCircle small" style="left:59%;top:24%">3</div>
+              <div class="gearCircle small" style="left:81%;top:24%">5</div>
+              <div class="gearCircle small" style="left:36%;top:63%">2</div>
+              <div class="gearCircle center hot" style="left:52%;top:50%;transform:translate(-50%,-50%)">RWD</div>
+              <div class="gearCircle small" style="left:59%;top:63%">4</div>
+              <div class="gearCircle small" style="left:81%;top:63%">6</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="storyPanel" data-panel="2">
+          <div class="storyMedia"><img src="https://mma.prnewswire.com/media/1595896/Toyota_2022_GR.jpg?p=facebook" alt="GR86 pure driving joy"/></div>
+          <div class="storyCopy">
+            <div>
+              <div class="storyStep"><b>6</b><span>Pure driving joy</span></div>
+              <h3>NOTHING BETWEEN YOU AND THE DRIVE.</h3>
+              <p>That final GR chapter should land emotionally: low, light, balanced, rear-wheel drive — everything engineered around the next movement of your hands and feet.</p>
+            </div>
+            <div class="storyShift">
+              <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span class="active">6</span><span>R</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="dna" id="dna">
+    <div class="wrap">
+      <div class="sectionTag reveal"><i></i><span>Performance / Cinematic sections</span></div>
+      <div class="sectionTitle reveal">EVERY SECTION SHOULD<br>MOVE.</div>
+      <div class="sectionText reveal">This is the difference between a standard MLP and a proper performance page. Every scene needs visual pace: imagery, motion, layered copy, and transitions that feel like entering the next chapter of the drive.</div>
+      <div class="dnaGrid">
+        <article class="dnaCard reveal">
+          <img src="https://client.presspage.com/download/1008621/20210405-gr86-int-02.jpg?hash=9d54c664b7a8b6a1380b75c2ae6d5aa01e784ba5" alt="GR86 cockpit"/>
+          <div class="dnaCard__content">
+            <div class="dnaCard__num"><b>01</b><span>Cinematic story</span></div>
+            <h4>Low, sharp, and controlled.</h4>
+            <p>Editorial storytelling with full-bleed visuals, progress movement, and emotional pacing instead of static text-heavy containers.</p>
+          </div>
+        </article>
+        <article class="dnaCard reveal">
+          <img src="https://media.toyota.com.ar/500d805a-f5ef-4c68-b035-dededa6f8709.jpeg" alt="GR86 driver cockpit"/>
+          <div class="dnaCard__content">
+            <div class="dnaCard__num"><b>02</b><span>Driver focus</span></div>
+            <h4>Everything around the next input.</h4>
+            <p>Use focused copy, black surfaces, mechanical rhythm and red signal moments to keep the page aggressive but premium.</p>
+          </div>
+        </article>
+        <article class="dnaCard reveal">
+          <img src="https://media.toyota.com.ar/6d109ae6-c6fb-4441-ab7c-82f26eb1cfa0.jpeg" alt="GR86 wheel and Brembo brake"/>
+          <div class="dnaCard__content">
+            <div class="dnaCard__num"><b>03</b><span>Performance detail</span></div>
+            <h4>Detail becomes theatre.</h4>
+            <p>The gallery and engineering chapters turn hardware into a visual performance moment instead of another list of features.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="metrics">
+    <div class="wrap">
+      <div class="metricsBox reveal">
+        <div class="metricsTop">
+          <div class="sectionTag" style="color:#fff"><i></i><span>Performance highlights</span></div>
+          <div style="color:#c6c6cb;font-size:12px;letter-spacing:.18em;text-transform:uppercase">Animated into view</div>
+        </div>
+        <div class="metricsValues">
+          <div class="metric"><strong data-count="2.4">0</strong><span>Boxer engine</span></div>
+          <div class="metric"><strong data-count="6">0</strong><span>Speed automatic</span></div>
+          <div class="metric"><strong data-count="162900">0</strong><span>Starting AED</span></div>
+          <div class="metric"><strong>RWD</strong><span>Driven wheels</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <div class="wrap">
+      <div class="sectionTag reveal"><i></i><span>Gallery / Full imagery</span></div>
+      <div class="sectionTitle reveal">REAL GALLERY.<br>NOT AN AFTERTHOUGHT.</div>
+      <div class="sectionText reveal">A sports-car page deserves a serious gallery. Large hero imagery, supporting frames, a premium open state, and visual depth across exterior, interior, details and performance moments.</div>
+
+      <div class="galleryStage">
+        <div class="galleryHero reveal">
+          <img id="galleryHeroImage" src="https://mma.prnewswire.com/media/1595896/Toyota_2022_GR.jpg?p=facebook" alt="GR86 hero gallery image"/>
+          <div class="galleryHero__copy">
+            <h3 id="galleryHeroTitle">Pure Sports Car. Pure Connection.</h3>
+            <p id="galleryHeroText">The lead image should feel like a poster frame from the driving experience — dramatic, close, and loaded with texture.</p>
+          </div>
+        </div>
+        <div class="galleryRight">
+          <div class="galleryTabs reveal">
+            <button class="galleryTab active" data-set="all">All</button>
+            <button class="galleryTab" data-set="exterior">Exterior</button>
+            <button class="galleryTab" data-set="detail">Details</button>
+            <button class="galleryTab" data-set="story">Story</button>
+          </div>
+          <div class="galleryGrid">
+            <div class="galleryThumb reveal" data-full="https://mma.prnewswire.com/media/1595896/Toyota_2022_GR.jpg?p=facebook" data-title="Hero frame" data-set="exterior"><img src="https://mma.prnewswire.com/media/1595896/Toyota_2022_GR.jpg?p=facebook" alt="GR86 exterior"><span>Hero frame</span></div>
+            <div class="galleryThumb reveal" data-full="https://client.presspage.com/download/1008621/20210405-gr86-int-02.jpg?hash=9d54c664b7a8b6a1380b75c2ae6d5aa01e784ba5" data-title="Cockpit" data-set="story"><img src="https://client.presspage.com/download/1008621/20210405-gr86-int-02.jpg?hash=9d54c664b7a8b6a1380b75c2ae6d5aa01e784ba5" alt="GR86 cockpit"><span>Driver cockpit</span></div>
+            <div class="galleryThumb reveal" data-full="https://global.toyota/pages/news/images/2021/10/28/0900/rendition/20211028_01_19_W610_H407.jpg" data-title="Chassis" data-set="story"><img src="https://global.toyota/pages/news/images/2021/10/28/0900/rendition/20211028_01_19_W610_H407.jpg" alt="GR86 chassis"><span>Mechanical core</span></div>
+            <div class="galleryThumb reveal" data-full="https://media.toyota.com.ar/6d109ae6-c6fb-4441-ab7c-82f26eb1cfa0.jpeg" data-title="Wheel detail" data-set="detail"><img src="https://media.toyota.com.ar/6d109ae6-c6fb-4441-ab7c-82f26eb1cfa0.jpeg" alt="GR86 wheel detail"><span>Brembo detail</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="grades" id="grades">
+    <div class="wrap">
+      <div class="sectionTag reveal"><i></i><span>Available grades</span></div>
+      <div class="sectionTitle reveal">EXPLORE THE PETROL RANGE</div>
+      <div class="gradeCard reveal">
+        <div class="gradeInfo">
+          <h3>2.4L GR86</h3>
+          <div class="price">From AED 162,900</div>
+          <div class="chips">
+            <div class="chip">5 available</div>
+            <div class="chip">Compare</div>
+          </div>
+          <div class="specRow">
+            <div class="spec"><strong>2.4L</strong><span>Boxer engine</span></div>
+            <div class="spec"><strong>RWD</strong><span>Driven wheels</span></div>
+            <div class="spec"><strong>6-speed</strong><span>Automatic</span></div>
+          </div>
+          <div class="gradeActions">
+            <button class="pill red">Build</button>
+            <button class="pill">Test drive</button>
+          </div>
+        </div>
+        <div class="gradeMedia"><img src="https://images.dailyrevs.com/0000/v3/Toyota/63bbf7529059d2d1bd729f90/2022-gr-86-premium-track-red-toyota-dwkyyweeeeb0fj6md69med4.jpeg" alt="GR86 grade visual"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="exit" id="finale">
+    <img src="https://mma.prnewswire.com/media/1595896/Toyota_2022_GR.jpg?p=facebook" alt="GR86 cinematic closing frame">
+    <div class="exit__content">
+      <div class="sectionTag reveal"><i></i><span>Finale / Cinematic exit</span></div>
+      <h3 class="reveal">THE STORY ENDS HERE.<br>THE DRIVE STARTS WITH YOU.</h3>
+      <p class="reveal">A proper performance page should not just stop. It should close like the last shot of a film — one final emotional image, one clean statement, and the handoff into Build or Test Drive.</p>
+      <div class="exit__cta reveal">
+        <button class="pill red">Build Yours</button>
+        <button class="pill">Book Test Drive</button>
+        <button class="pill" onclick="window.scrollTo({top:0,behavior:'smooth'})">Replay Journey</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    GR86 Cinematic Rebuild Preview — live GitHub Pages prototype.
+  </footer>
+</div>
+
+<script src="./script.js?v=4" defer></script>
+</body>
+</html>
