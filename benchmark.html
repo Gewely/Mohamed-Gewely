@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+  <meta name="theme-color" content="#000000"/>
+  <title>GR86 — RUN AGAIN / Benchmark Film</title>
+  <link rel="stylesheet" href="./benchmark.css?v=1"/>
+</head>
+<body>
+  <div class="film-grain" aria-hidden="true"></div>
+
+  <section class="gate" id="gate">
+    <div class="gate-mark"><span class="gr-badge"><b>G</b><b>R</b></span><small>TOYOTA GAZOO RACING</small></div>
+    <div class="gate-copy">
+      <div class="gate-code">GR86 / RUN AGAIN / FILM 001</div>
+      <h1>START<br><em>THE RUN.</em></h1>
+      <p>One car. One driver. One continuous performance film.</p>
+      <button id="startFilm" class="tgr-button red">START EXPERIENCE</button>
+    </div>
+    <div class="gate-86">86</div>
+    <div class="gate-line"></div>
+  </section>
+
+  <header class="film-ui" id="filmUI">
+    <div class="film-brand"><span class="gr-badge mini"><b>G</b><b>R</b></span><strong>GR86</strong></div>
+    <div class="film-status"><span id="chapterLabel">IGNITION</span><i></i><span id="timecode">00:00:00</span></div>
+    <div class="film-progress"><i id="filmProgress"></i></div>
+  </header>
+
+  <main>
+    <section class="timeline" id="timeline">
+      <div class="stage" id="stage">
+        <div class="scene scene-a active" data-scene="0">
+          <div class="shot shot-a"></div>
+          <div class="grade"></div>
+          <div class="headlights"><i></i><i></i></div>
+          <div class="scan"></div>
+          <div class="title-lockup">
+            <span>GR86 / IGNITION</span>
+            <h2>BUILT<br>TO RESPOND.</h2>
+            <p>Low. Light. Rear-wheel drive. Everything begins with the next input.</p>
+          </div>
+          <div class="scroll-cue"><span>SCROLL TO DRIVE</span><i></i></div>
+        </div>
+
+        <div class="scene scene-b" data-scene="1">
+          <div class="shot shot-b"></div>
+          <div class="grade"></div>
+          <div class="chapter-copy left">
+            <span>01 / ENGINE</span>
+            <h2>2.4L<br>BOXER.</h2>
+            <p>Power stays low in the chassis. The response stays close to the driver.</p>
+          </div>
+          <div class="engine-window" id="engineWindow">
+            <div class="engine-core"><b>2.4</b><span>BOXER</span></div>
+            <div class="pulse-line"></div>
+          </div>
+          <div class="telemetry">
+            <div><small>LAYOUT</small><strong>FR</strong></div>
+            <div><small>DRIVE</small><strong>RWD</strong></div>
+            <div><small>GEARBOX</small><strong>6AT</strong></div>
+          </div>
+        </div>
+
+        <div class="scene scene-c" data-scene="2">
+          <div class="shot shot-c"></div>
+          <div class="grade"></div>
+          <div class="chapter-copy right">
+            <span>02 / BALANCE</span>
+            <h2>POWER<br>TO THE REAR.</h2>
+            <p>The line from throttle to rear axle should feel obvious — visually and physically.</p>
+          </div>
+          <svg class="power-map" viewBox="0 0 1000 600" preserveAspectRatio="none" aria-hidden="true">
+            <path class="chassis-line" d="M140 300 C 300 300, 360 300, 470 300 S 650 300, 820 300"/>
+            <path class="power-line" id="powerLine" d="M140 300 C 300 300, 360 300, 470 300 S 650 300, 820 300"/>
+            <circle cx="150" cy="300" r="13"/>
+            <circle cx="835" cy="300" r="13"/>
+          </svg>
+          <div class="balance-cross"><i></i><i></i><b>LOW CG</b></div>
+        </div>
+
+        <div class="scene scene-d" data-scene="3">
+          <div class="shot shot-d"></div>
+          <div class="grade"></div>
+          <div class="chapter-copy left">
+            <span>03 / RUN AGAIN</span>
+            <h2>INPUT.<br>RESPONSE.</h2>
+            <p>Scroll drives the camera. Pointer movement shifts the frame. The car remains the subject.</p>
+          </div>
+          <div class="speed-lines" aria-hidden="true"></div>
+          <div class="lap-data">
+            <small>LAP 02</small><strong id="lapTime">00:47.638</strong><span>SECTOR 02&nbsp;&nbsp; -0.021</span>
+          </div>
+        </div>
+
+        <div class="scene scene-e" data-scene="4">
+          <div class="shot shot-e"></div>
+          <div class="grade"></div>
+          <div class="sound-copy">
+            <span>04 / SOUND</span>
+            <h2>HOLD<br>TO REV.</h2>
+            <p>Press and hold. Release to let the engine settle.</p>
+          </div>
+          <button class="rev-control" id="revControl" aria-label="Hold to rev engine">
+            <span class="rev-ring"></span>
+            <strong id="rpm">900</strong>
+            <small>RPM</small>
+            <em>HOLD</em>
+          </button>
+          <div class="wave" id="wave"></div>
+        </div>
+
+        <div class="scene scene-f" data-scene="5">
+          <div class="gallery-title"><span>05 / THE MACHINE</span><h2>FRAME<br>BY FRAME.</h2></div>
+          <div class="filmstrip" id="filmstrip">
+            <button data-shot="0" style="--bg:url('https://mma.prnewswire.com/media/1595896/Toyota_2022_GR.jpg?p=facebook')"><span>001</span></button>
+            <button data-shot="1" style="--bg:url('https://client.presspage.com/download/1008621/20210405-gr86-int-02.jpg?hash=9d54c664b7a8b6a1380b75c2ae6d5aa01e784ba5')"><span>014</span></button>
+            <button data-shot="2" style="--bg:url('https://global.toyota/pages/news/images/2021/10/28/0900/rendition/20211028_01_19_W610_H407.jpg')"><span>041</span></button>
+            <button data-shot="3" style="--bg:url('https://media.toyota.com.ar/6d109ae6-c6fb-4441-ab7c-82f26eb1cfa0.jpeg')"><span>086</span></button>
+          </div>
+          <div class="gallery-focus" id="galleryFocus"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="end-frame" id="endFrame">
+      <div class="end-bg"></div>
+      <div class="end-mask"></div>
+      <div class="end-copy">
+        <span>RUN COMPLETE / YOUR TURN</span>
+        <h2>DRIVE IT.<br><em>DON'T JUST READ IT.</em></h2>
+        <p>Only now does the experience hand off into the commercial journey.</p>
+        <div class="end-actions">
+          <button class="tgr-button red">BUILD GR86</button>
+          <button class="tgr-button">BOOK TEST DRIVE</button>
+          <button class="tgr-button" id="replay">REPLAY FILM</button>
+        </div>
+      </div>
+      <div class="end-mark"><span class="gr-badge large"><b>G</b><b>R</b></span><small>TOYOTA GAZOO RACING</small></div>
+    </section>
+  </main>
+
+  <script src="./benchmark.js?v=1" defer></script>
+</body>
+</html>
