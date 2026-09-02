@@ -1,0 +1,381 @@
+{
+  "_meta": {
+    "contentType": "news-listing",
+    "cmsTarget": "HCL DX / Content Composer",
+    "status": "placeholder",
+    "placeholder": true,
+    "note": "Sample entries only. Titles and summaries are neutral, evergreen topic labels and deliberately state no factual Toyota announcement, launch, price, date or specification. Replace this whole file with the HCL CMS feed before publication.",
+    "schemaVersion": 1
+  },
+  "site": {
+    "name": "Toyota UAE",
+    "baseUrl": "https://gewely.github.io/mohamed-gewely",
+    "publisherLogo": "assets/news/media/toyota-mark.svg"
+  },
+  "page": {
+    "locale": "en",
+    "language": "en-AE",
+    "dir": "ltr",
+    "path": "/en/news/",
+    "title": "Toyota News",
+    "intro": "Stories, technology explainers and ownership guidance from Toyota in the United Arab Emirates. Browse the latest updates or search the full archive.",
+    "breadcrumb": [
+      { "label": "Home", "href": "../../index.html" },
+      { "label": "News", "href": "./" }
+    ],
+    "seo": {
+      "title": "Toyota News | Toyota UAE",
+      "description": "The latest stories, technology explainers and ownership guidance from Toyota in the United Arab Emirates.",
+      "canonical": "/en/news/",
+      "hreflang": {
+        "en": "/en/news/",
+        "ar": "/ar/news/",
+        "x-default": "/en/news/"
+      }
+    },
+    "ui": {
+      "skipToContent": "Skip to content",
+      "breadcrumbLabel": "Breadcrumb",
+      "searchLabel": "Search news",
+      "searchPlaceholder": "Search stories, topics or tags",
+      "searchClear": "Clear search",
+      "filtersLabel": "Filter by category",
+      "featuredEyebrow": "Featured story",
+      "latestEyebrow": "Latest",
+      "latestTitle": "Latest stories",
+      "archiveEyebrow": "Archive",
+      "archiveTitle": "All news",
+      "archiveCount": "{count} stories",
+      "readStory": "Read the story",
+      "readMore": "Read more",
+      "loadMore": "Load more stories",
+      "loadMoreRemaining": "Showing {shown} of {total}",
+      "paginationLabel": "News pagination",
+      "previousPage": "Previous",
+      "nextPage": "Next",
+      "page": "Page",
+      "noResultsTitle": "No stories match your search",
+      "noResultsText": "Try a different keyword, or clear the filters to see every story.",
+      "noResultsReset": "Clear filters",
+      "imageMissing": "Image not available",
+      "resultsAnnouncement": "{count} stories found"
+    },
+    "pageSize": 6
+  },
+  "categories": [
+    { "id": "all", "label": "All" },
+    { "id": "company", "label": "Company" },
+    { "id": "technology", "label": "Technology" },
+    { "id": "motorsport", "label": "Motorsport" },
+    { "id": "ownership", "label": "Ownership" },
+    { "id": "sustainability", "label": "Sustainability" }
+  ],
+  "articles": [
+    {
+      "slug": "how-toyota-hybrid-electric-works",
+      "sample": true,
+      "title": "How Toyota Hybrid Electric technology works",
+      "summary": "A plain-language explainer of how a self-charging hybrid powertrain combines a petrol engine and an electric motor, and what that means day to day.",
+      "image": {
+        "src": "../../assets/news/media/story-hybrid.svg",
+        "alt": "Abstract illustration of a hybrid powertrain split between engine and electric motor",
+        "focal": { "x": 50, "y": 45 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "technology",
+      "tags": ["hybrid", "electrification", "explainer"],
+      "publishedAt": "2026-08-24",
+      "featured": true,
+      "priority": 1,
+      "counterpart": { "locale": "ar", "slug": "kayfa-taamal-tiqniyat-tuyuta-alhajina", "href": "../../ar/news/" },
+      "seo": {
+        "title": "How Toyota Hybrid Electric technology works | Toyota UAE",
+        "description": "An explainer on how Toyota's self-charging hybrid powertrain combines a petrol engine and an electric motor.",
+        "canonical": "/en/news/how-toyota-hybrid-electric-works/"
+      }
+    },
+    {
+      "slug": "reading-your-service-schedule",
+      "sample": true,
+      "title": "Reading your service schedule with confidence",
+      "summary": "What each service interval covers, why intervals differ between models, and how to plan maintenance around UAE driving conditions.",
+      "image": {
+        "src": "../../assets/news/media/story-service.svg",
+        "alt": "Abstract illustration of a service checklist and tools",
+        "focal": { "x": 50, "y": 50 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "ownership",
+      "tags": ["service", "maintenance", "guide"],
+      "publishedAt": "2026-08-19",
+      "featured": false,
+      "priority": 2,
+      "counterpart": { "locale": "ar", "slug": "qiraat-jadwal-alsiyana", "href": "../../ar/news/" },
+      "seo": {
+        "title": "Reading your service schedule with confidence | Toyota UAE",
+        "description": "Understand what each Toyota service interval covers and how to plan maintenance in the UAE.",
+        "canonical": "/en/news/reading-your-service-schedule/"
+      }
+    },
+    {
+      "slug": "inside-a-motorsport-test-programme",
+      "sample": true,
+      "title": "Inside a motorsport test programme",
+      "summary": "How endurance testing shapes durability targets, and the path a component takes from the circuit to a road car specification.",
+      "image": {
+        "src": "../../assets/news/media/story-motorsport.svg",
+        "alt": "Abstract illustration of a race circuit layout with timing markers",
+        "focal": { "x": 55, "y": 50 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "motorsport",
+      "tags": ["motorsport", "engineering", "testing"],
+      "publishedAt": "2026-08-14",
+      "featured": false,
+      "priority": 3,
+      "counterpart": { "locale": "ar", "slug": "dakhil-barnamaj-ikhtibar-alsibaqat", "href": "../../ar/news/" },
+      "seo": {
+        "title": "Inside a motorsport test programme | Toyota UAE",
+        "description": "How endurance testing shapes durability targets and road car specifications.",
+        "canonical": "/en/news/inside-a-motorsport-test-programme/"
+      }
+    },
+    {
+      "slug": "designing-for-desert-conditions",
+      "sample": true,
+      "title": "Designing for desert conditions",
+      "summary": "Heat management, filtration and materials engineering — the design considerations behind vehicles built to work in high ambient temperatures.",
+      "image": {
+        "src": "../../assets/news/media/story-desert.svg",
+        "alt": "Abstract illustration of dune ridges under a low sun",
+        "focal": { "x": 50, "y": 60 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "technology",
+      "tags": ["engineering", "climate", "durability"],
+      "publishedAt": "2026-08-08",
+      "featured": false,
+      "priority": 4,
+      "counterpart": { "locale": "ar", "slug": "altasmim-lizuruf-alsahra", "href": "../../ar/news/" },
+      "seo": {
+        "title": "Designing for desert conditions | Toyota UAE",
+        "description": "The engineering considerations behind vehicles built for high ambient temperatures.",
+        "canonical": "/en/news/designing-for-desert-conditions/"
+      }
+    },
+    {
+      "slug": "what-a-multi-pathway-approach-means",
+      "sample": true,
+      "title": "What a multi-pathway approach means",
+      "summary": "Hybrid, plug-in hybrid, battery electric and hydrogen explained side by side, and why different markets adopt them at different speeds.",
+      "image": {
+        "src": "../../assets/news/media/story-pathways.svg",
+        "alt": "Abstract illustration of four diverging routes",
+        "focal": { "x": 50, "y": 50 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "sustainability",
+      "tags": ["electrification", "hydrogen", "explainer"],
+      "publishedAt": "2026-08-03",
+      "featured": false,
+      "priority": 5,
+      "counterpart": { "locale": "ar", "slug": "maana-nahj-almasarat-almutaadida", "href": "../../ar/news/" },
+      "seo": {
+        "title": "What a multi-pathway approach means | Toyota UAE",
+        "description": "Hybrid, plug-in hybrid, battery electric and hydrogen technologies explained side by side.",
+        "canonical": "/en/news/what-a-multi-pathway-approach-means/"
+      }
+    },
+    {
+      "slug": "preparing-a-vehicle-for-summer",
+      "sample": true,
+      "title": "Preparing a vehicle for summer",
+      "summary": "A seasonal checklist covering tyres, cooling, cabin filtration and battery health before the hottest months of the year.",
+      "image": {
+        "src": "../../assets/news/media/story-summer.svg",
+        "alt": "Abstract illustration of a seasonal maintenance checklist",
+        "focal": { "x": 50, "y": 50 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "ownership",
+      "tags": ["guide", "seasonal", "maintenance"],
+      "publishedAt": "2026-07-27",
+      "featured": false,
+      "priority": 6,
+      "counterpart": { "locale": "ar", "slug": "tahdir-almarkaba-lilsayf", "href": "../../ar/news/" },
+      "seo": {
+        "title": "Preparing a vehicle for summer | Toyota UAE",
+        "description": "A seasonal checklist covering tyres, cooling, cabin filtration and battery health.",
+        "canonical": "/en/news/preparing-a-vehicle-for-summer/"
+      }
+    },
+    {
+      "slug": "the-thinking-behind-cabin-ergonomics",
+      "sample": true,
+      "title": "The thinking behind cabin ergonomics",
+      "summary": "Seat position, sightlines and control placement — how interior packaging decisions are tested long before a cabin reaches production.",
+      "image": {
+        "src": "../../assets/news/media/story-cabin.svg",
+        "alt": "Abstract illustration of a cabin layout seen from above",
+        "focal": { "x": 50, "y": 50 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "technology",
+      "tags": ["design", "interior", "engineering"],
+      "publishedAt": "2026-07-20",
+      "featured": false,
+      "priority": 7,
+      "counterpart": { "locale": "ar", "slug": "altafkir-wara-tasmim-almaqsura", "href": "../../ar/news/" },
+      "seo": {
+        "title": "The thinking behind cabin ergonomics | Toyota UAE",
+        "description": "How interior packaging decisions are tested long before a cabin reaches production.",
+        "canonical": "/en/news/the-thinking-behind-cabin-ergonomics/"
+      }
+    },
+    {
+      "slug": "how-battery-materials-are-recovered",
+      "sample": true,
+      "title": "How battery materials are recovered",
+      "summary": "An overview of collection, second-life applications and material recovery, and the role each stage plays in a circular supply chain.",
+      "image": {
+        "src": "../../assets/news/media/story-battery.svg",
+        "alt": "Abstract illustration of a circular material recovery loop",
+        "focal": { "x": 50, "y": 50 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "sustainability",
+      "tags": ["batteries", "recycling", "explainer"],
+      "publishedAt": "2026-07-13",
+      "featured": false,
+      "priority": 8,
+      "counterpart": { "locale": "ar", "slug": "kayfa-tustaraddu-mawadd-albattariyat", "href": "../../ar/news/" },
+      "seo": {
+        "title": "How battery materials are recovered | Toyota UAE",
+        "description": "Collection, second-life applications and material recovery in a circular supply chain.",
+        "canonical": "/en/news/how-battery-materials-are-recovered/"
+      }
+    },
+    {
+      "slug": "a-short-history-of-the-land-cruiser-name",
+      "sample": true,
+      "title": "A short history of the Land Cruiser name",
+      "summary": "Where the name came from, how it travelled across generations, and why it remains a reference point for durability.",
+      "image": null,
+      "category": "company",
+      "tags": ["heritage", "history"],
+      "publishedAt": "2026-07-06",
+      "featured": false,
+      "priority": 9,
+      "counterpart": { "locale": "ar", "slug": "tarikh-mujaz-liism-land-krwzr", "href": "../../ar/news/" },
+      "seo": {
+        "title": "A short history of the Land Cruiser name | Toyota UAE",
+        "description": "Where the Land Cruiser name came from and how it travelled across generations.",
+        "canonical": "/en/news/a-short-history-of-the-land-cruiser-name/"
+      }
+    },
+    {
+      "slug": "understanding-driver-assistance-terms",
+      "sample": true,
+      "title": "Understanding driver assistance terms",
+      "summary": "Adaptive cruise, lane tracing, pre-collision — a glossary of the assistance features drivers encounter, and what each one actually does.",
+      "image": {
+        "src": "../../assets/news/media/story-assist.svg",
+        "alt": "Abstract illustration of sensing arcs projected ahead of a vehicle",
+        "focal": { "x": 50, "y": 50 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "technology",
+      "tags": ["safety", "glossary", "explainer"],
+      "publishedAt": "2026-06-29",
+      "featured": false,
+      "priority": 10,
+      "counterpart": { "locale": "ar", "slug": "fahm-mustalahat-musaadat-alsaayiq", "href": "../../ar/news/" },
+      "seo": {
+        "title": "Understanding driver assistance terms | Toyota UAE",
+        "description": "A glossary of driver assistance features and what each one actually does.",
+        "canonical": "/en/news/understanding-driver-assistance-terms/"
+      }
+    },
+    {
+      "slug": "what-happens-during-a-vehicle-handover",
+      "sample": true,
+      "title": "What happens during a vehicle handover",
+      "summary": "A step-by-step look at the handover appointment, the documents involved and the settings worth configuring before the first drive.",
+      "image": {
+        "src": "../../assets/news/media/story-handover.svg",
+        "alt": "Abstract illustration of a key and document handover",
+        "focal": { "x": 50, "y": 50 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "ownership",
+      "tags": ["guide", "ownership"],
+      "publishedAt": "2026-06-22",
+      "featured": false,
+      "priority": 11,
+      "counterpart": { "locale": "ar", "slug": "ma-yahduth-athna-tasallum-almarkaba", "href": "../../ar/news/" },
+      "seo": {
+        "title": "What happens during a vehicle handover | Toyota UAE",
+        "description": "A step-by-step look at the vehicle handover appointment and the documents involved.",
+        "canonical": "/en/news/what-happens-during-a-vehicle-handover/"
+      }
+    },
+    {
+      "slug": "how-endurance-racing-shapes-road-cars",
+      "sample": true,
+      "title": "How endurance racing shapes road cars",
+      "summary": "Cooling, aerodynamics and reliability targets set on the circuit, and the engineering path those lessons take into production models.",
+      "image": {
+        "src": "../../assets/news/media/story-endurance.svg",
+        "alt": "Abstract illustration of a long-distance racing stint timeline",
+        "focal": { "x": 45, "y": 50 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "motorsport",
+      "tags": ["motorsport", "engineering"],
+      "publishedAt": "2026-06-15",
+      "featured": false,
+      "priority": 12,
+      "counterpart": { "locale": "ar", "slug": "kayfa-tashkul-sibaqat-altahammul-sayarat-altariq", "href": "../../ar/news/" },
+      "seo": {
+        "title": "How endurance racing shapes road cars | Toyota UAE",
+        "description": "How circuit-set cooling, aerodynamic and reliability targets reach production models.",
+        "canonical": "/en/news/how-endurance-racing-shapes-road-cars/"
+      }
+    },
+    {
+      "slug": "inside-a-quality-inspection-line",
+      "sample": true,
+      "title": "Inside a quality inspection line",
+      "summary": "The checks a vehicle passes through before it leaves the line, and how inspection data feeds back into the production process.",
+      "image": {
+        "src": "../../assets/news/media/story-quality.svg",
+        "alt": "Abstract illustration of an inspection grid with measurement points",
+        "focal": { "x": 50, "y": 50 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "company",
+      "tags": ["manufacturing", "quality"],
+      "publishedAt": "2026-06-08",
+      "featured": false,
+      "priority": 13,
+      "counterpart": { "locale": "ar", "slug": "dakhil-khatt-fahs-aljawda", "href": "../../ar/news/" },
+      "seo": {
+        "title": "Inside a quality inspection line | Toyota UAE",
+        "description": "The checks a vehicle passes before it leaves the line and how the data feeds back.",
+        "canonical": "/en/news/inside-a-quality-inspection-line/"
+      }
+    }
+  ]
+}
