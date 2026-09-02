@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "model": "sonnet",
+  "effortLevel": "low",
+  "autoCompactWindow": 100000,
+  "permissions": {
+    "deny": [
+      "Agent",
+      "mcp__*",
+      "Read(/node_modules/**)",
+      "Read(/dist/**)",
+      "Read(/build/**)",
+      "Read(/coverage/**)",
+      "Read(/.next/**)",
+      "Read(**/*.log)"
+    ]
+  }
+}
