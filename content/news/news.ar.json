@@ -1,0 +1,381 @@
+{
+  "_meta": {
+    "contentType": "news-listing",
+    "cmsTarget": "HCL DX / Content Composer",
+    "status": "placeholder",
+    "placeholder": true,
+    "note": "Sample entries only. Titles and summaries are neutral, evergreen topic labels and deliberately state no factual Toyota announcement, launch, price, date or specification. Replace this whole file with the HCL CMS feed before publication. Arabic copy here is a structural placeholder pending professional translation.",
+    "schemaVersion": 1
+  },
+  "site": {
+    "name": "تويوتا الإمارات",
+    "baseUrl": "https://gewely.github.io/mohamed-gewely",
+    "publisherLogo": "assets/news/media/toyota-mark.svg"
+  },
+  "page": {
+    "locale": "ar",
+    "language": "ar-AE",
+    "dir": "rtl",
+    "path": "/ar/news/",
+    "title": "أخبار تويوتا",
+    "intro": "قصص ومقالات تقنية وإرشادات للملّاك من تويوتا في دولة الإمارات العربية المتحدة. تصفّح أحدث المستجدات أو ابحث في الأرشيف الكامل.",
+    "breadcrumb": [
+      { "label": "الرئيسية", "href": "../../index.html" },
+      { "label": "الأخبار", "href": "./" }
+    ],
+    "seo": {
+      "title": "أخبار تويوتا | تويوتا الإمارات",
+      "description": "أحدث القصص والمقالات التقنية وإرشادات الملكية من تويوتا في دولة الإمارات العربية المتحدة.",
+      "canonical": "/ar/news/",
+      "hreflang": {
+        "en": "/en/news/",
+        "ar": "/ar/news/",
+        "x-default": "/en/news/"
+      }
+    },
+    "ui": {
+      "skipToContent": "تخطَّ إلى المحتوى",
+      "breadcrumbLabel": "مسار التنقل",
+      "searchLabel": "البحث في الأخبار",
+      "searchPlaceholder": "ابحث في القصص أو المواضيع أو الوسوم",
+      "searchClear": "مسح البحث",
+      "filtersLabel": "التصفية حسب الفئة",
+      "featuredEyebrow": "القصة المميزة",
+      "latestEyebrow": "الأحدث",
+      "latestTitle": "أحدث القصص",
+      "archiveEyebrow": "الأرشيف",
+      "archiveTitle": "كل الأخبار",
+      "archiveCount": "{count} قصة",
+      "readStory": "اقرأ القصة",
+      "readMore": "اقرأ المزيد",
+      "loadMore": "عرض المزيد من القصص",
+      "loadMoreRemaining": "عرض {shown} من {total}",
+      "paginationLabel": "تصفّح صفحات الأخبار",
+      "previousPage": "السابق",
+      "nextPage": "التالي",
+      "page": "صفحة",
+      "noResultsTitle": "لا توجد قصص مطابقة لبحثك",
+      "noResultsText": "جرّب كلمة مفتاحية أخرى، أو امسح عوامل التصفية لعرض كل القصص.",
+      "noResultsReset": "مسح عوامل التصفية",
+      "imageMissing": "الصورة غير متوفرة",
+      "resultsAnnouncement": "تم العثور على {count} قصة"
+    },
+    "pageSize": 6
+  },
+  "categories": [
+    { "id": "all", "label": "الكل" },
+    { "id": "company", "label": "الشركة" },
+    { "id": "technology", "label": "التقنية" },
+    { "id": "motorsport", "label": "رياضة السيارات" },
+    { "id": "ownership", "label": "الملكية" },
+    { "id": "sustainability", "label": "الاستدامة" }
+  ],
+  "articles": [
+    {
+      "slug": "kayfa-taamal-tiqniyat-tuyuta-alhajina",
+      "sample": true,
+      "title": "كيف تعمل تقنية تويوتا الهجينة الكهربائية",
+      "summary": "شرح مبسّط لكيفية جمع نظام الدفع الهجين ذاتي الشحن بين محرك البنزين والمحرك الكهربائي، وما يعنيه ذلك في الاستخدام اليومي.",
+      "image": {
+        "src": "../../assets/news/media/story-hybrid.svg",
+        "alt": "رسم تجريدي لنظام دفع هجين موزّع بين محرك احتراق ومحرك كهربائي",
+        "focal": { "x": 50, "y": 45 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "technology",
+      "tags": ["هجين", "الكهربة", "شرح"],
+      "publishedAt": "2026-08-24",
+      "featured": true,
+      "priority": 1,
+      "counterpart": { "locale": "en", "slug": "how-toyota-hybrid-electric-works", "href": "../../en/news/" },
+      "seo": {
+        "title": "كيف تعمل تقنية تويوتا الهجينة الكهربائية | تويوتا الإمارات",
+        "description": "شرح لكيفية جمع نظام الدفع الهجين ذاتي الشحن بين محرك البنزين والمحرك الكهربائي.",
+        "canonical": "/ar/news/kayfa-taamal-tiqniyat-tuyuta-alhajina/"
+      }
+    },
+    {
+      "slug": "qiraat-jadwal-alsiyana",
+      "sample": true,
+      "title": "قراءة جدول الصيانة بثقة",
+      "summary": "ما الذي تغطيه كل فترة صيانة، ولماذا تختلف الفترات بين الطرازات، وكيف تخطّط للصيانة وفق ظروف القيادة في الإمارات.",
+      "image": {
+        "src": "../../assets/news/media/story-service.svg",
+        "alt": "رسم تجريدي لقائمة فحص صيانة وأدوات",
+        "focal": { "x": 50, "y": 50 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "ownership",
+      "tags": ["الصيانة", "إرشادات"],
+      "publishedAt": "2026-08-19",
+      "featured": false,
+      "priority": 2,
+      "counterpart": { "locale": "en", "slug": "reading-your-service-schedule", "href": "../../en/news/" },
+      "seo": {
+        "title": "قراءة جدول الصيانة بثقة | تويوتا الإمارات",
+        "description": "تعرّف على ما تغطيه كل فترة صيانة وكيفية التخطيط لها في الإمارات.",
+        "canonical": "/ar/news/qiraat-jadwal-alsiyana/"
+      }
+    },
+    {
+      "slug": "dakhil-barnamaj-ikhtibar-alsibaqat",
+      "sample": true,
+      "title": "داخل برنامج اختبار رياضة السيارات",
+      "summary": "كيف تُحدّد اختبارات التحمّل أهداف المتانة، والمسار الذي يسلكه أي مكوّن من الحلبة إلى مواصفات سيارة الطريق.",
+      "image": {
+        "src": "../../assets/news/media/story-motorsport.svg",
+        "alt": "رسم تجريدي لمخطط حلبة سباق مع علامات توقيت",
+        "focal": { "x": 55, "y": 50 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "motorsport",
+      "tags": ["رياضة السيارات", "الهندسة", "الاختبار"],
+      "publishedAt": "2026-08-14",
+      "featured": false,
+      "priority": 3,
+      "counterpart": { "locale": "en", "slug": "inside-a-motorsport-test-programme", "href": "../../en/news/" },
+      "seo": {
+        "title": "داخل برنامج اختبار رياضة السيارات | تويوتا الإمارات",
+        "description": "كيف تُحدّد اختبارات التحمّل أهداف المتانة ومواصفات سيارات الطريق.",
+        "canonical": "/ar/news/dakhil-barnamaj-ikhtibar-alsibaqat/"
+      }
+    },
+    {
+      "slug": "altasmim-lizuruf-alsahra",
+      "sample": true,
+      "title": "التصميم لظروف الصحراء",
+      "summary": "إدارة الحرارة والترشيح وهندسة المواد — اعتبارات التصميم وراء مركبات مُهيّأة للعمل في درجات حرارة محيطة مرتفعة.",
+      "image": {
+        "src": "../../assets/news/media/story-desert.svg",
+        "alt": "رسم تجريدي لتلال رملية تحت شمس منخفضة",
+        "focal": { "x": 50, "y": 60 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "technology",
+      "tags": ["الهندسة", "المناخ", "المتانة"],
+      "publishedAt": "2026-08-08",
+      "featured": false,
+      "priority": 4,
+      "counterpart": { "locale": "en", "slug": "designing-for-desert-conditions", "href": "../../en/news/" },
+      "seo": {
+        "title": "التصميم لظروف الصحراء | تويوتا الإمارات",
+        "description": "الاعتبارات الهندسية وراء مركبات مُهيّأة لدرجات الحرارة المرتفعة.",
+        "canonical": "/ar/news/altasmim-lizuruf-alsahra/"
+      }
+    },
+    {
+      "slug": "maana-nahj-almasarat-almutaadida",
+      "sample": true,
+      "title": "ماذا يعني نهج المسارات المتعددة",
+      "summary": "الهجين والهجين القابل للشحن والكهربائي بالكامل والهيدروجين جنباً إلى جنب، ولماذا تتبنّاها الأسواق بسرعات مختلفة.",
+      "image": {
+        "src": "../../assets/news/media/story-pathways.svg",
+        "alt": "رسم تجريدي لأربعة مسارات متفرعة",
+        "focal": { "x": 50, "y": 50 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "sustainability",
+      "tags": ["الكهربة", "الهيدروجين", "شرح"],
+      "publishedAt": "2026-08-03",
+      "featured": false,
+      "priority": 5,
+      "counterpart": { "locale": "en", "slug": "what-a-multi-pathway-approach-means", "href": "../../en/news/" },
+      "seo": {
+        "title": "ماذا يعني نهج المسارات المتعددة | تويوتا الإمارات",
+        "description": "شرح لتقنيات الهجين والهجين القابل للشحن والكهربائي والهيدروجين جنباً إلى جنب.",
+        "canonical": "/ar/news/maana-nahj-almasarat-almutaadida/"
+      }
+    },
+    {
+      "slug": "tahdir-almarkaba-lilsayf",
+      "sample": true,
+      "title": "تهيئة المركبة لفصل الصيف",
+      "summary": "قائمة موسمية تشمل الإطارات والتبريد وترشيح هواء المقصورة وحالة البطارية قبل أشد شهور السنة حرارة.",
+      "image": {
+        "src": "../../assets/news/media/story-summer.svg",
+        "alt": "رسم تجريدي لقائمة فحص موسمية",
+        "focal": { "x": 50, "y": 50 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "ownership",
+      "tags": ["إرشادات", "موسمي", "الصيانة"],
+      "publishedAt": "2026-07-27",
+      "featured": false,
+      "priority": 6,
+      "counterpart": { "locale": "en", "slug": "preparing-a-vehicle-for-summer", "href": "../../en/news/" },
+      "seo": {
+        "title": "تهيئة المركبة لفصل الصيف | تويوتا الإمارات",
+        "description": "قائمة موسمية تشمل الإطارات والتبريد والترشيح وحالة البطارية.",
+        "canonical": "/ar/news/tahdir-almarkaba-lilsayf/"
+      }
+    },
+    {
+      "slug": "altafkir-wara-tasmim-almaqsura",
+      "sample": true,
+      "title": "التفكير وراء بيئة المقصورة",
+      "summary": "وضعية المقعد وخطوط الرؤية وتوزيع أدوات التحكم — كيف تُختبر قرارات تصميم المقصورة قبل وقت طويل من الإنتاج.",
+      "image": {
+        "src": "../../assets/news/media/story-cabin.svg",
+        "alt": "رسم تجريدي لتخطيط مقصورة من الأعلى",
+        "focal": { "x": 50, "y": 50 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "technology",
+      "tags": ["التصميم", "المقصورة", "الهندسة"],
+      "publishedAt": "2026-07-20",
+      "featured": false,
+      "priority": 7,
+      "counterpart": { "locale": "en", "slug": "the-thinking-behind-cabin-ergonomics", "href": "../../en/news/" },
+      "seo": {
+        "title": "التفكير وراء بيئة المقصورة | تويوتا الإمارات",
+        "description": "كيف تُختبر قرارات تصميم المقصورة قبل وقت طويل من الإنتاج.",
+        "canonical": "/ar/news/altafkir-wara-tasmim-almaqsura/"
+      }
+    },
+    {
+      "slug": "kayfa-tustaraddu-mawadd-albattariyat",
+      "sample": true,
+      "title": "كيف تُستردّ مواد البطاريات",
+      "summary": "نظرة عامة على الجمع وتطبيقات الحياة الثانية واسترداد المواد، ودور كل مرحلة في سلسلة توريد دائرية.",
+      "image": {
+        "src": "../../assets/news/media/story-battery.svg",
+        "alt": "رسم تجريدي لحلقة استرداد مواد دائرية",
+        "focal": { "x": 50, "y": 50 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "sustainability",
+      "tags": ["البطاريات", "إعادة التدوير", "شرح"],
+      "publishedAt": "2026-07-13",
+      "featured": false,
+      "priority": 8,
+      "counterpart": { "locale": "en", "slug": "how-battery-materials-are-recovered", "href": "../../en/news/" },
+      "seo": {
+        "title": "كيف تُستردّ مواد البطاريات | تويوتا الإمارات",
+        "description": "الجمع وتطبيقات الحياة الثانية واسترداد المواد ضمن سلسلة توريد دائرية.",
+        "canonical": "/ar/news/kayfa-tustaraddu-mawadd-albattariyat/"
+      }
+    },
+    {
+      "slug": "tarikh-mujaz-liism-land-krwzr",
+      "sample": true,
+      "title": "تاريخ موجز لاسم لاند كروزر",
+      "summary": "من أين جاء الاسم، وكيف انتقل عبر الأجيال، ولماذا لا يزال مرجعاً في المتانة.",
+      "image": null,
+      "category": "company",
+      "tags": ["الإرث", "التاريخ"],
+      "publishedAt": "2026-07-06",
+      "featured": false,
+      "priority": 9,
+      "counterpart": { "locale": "en", "slug": "a-short-history-of-the-land-cruiser-name", "href": "../../en/news/" },
+      "seo": {
+        "title": "تاريخ موجز لاسم لاند كروزر | تويوتا الإمارات",
+        "description": "من أين جاء اسم لاند كروزر وكيف انتقل عبر الأجيال.",
+        "canonical": "/ar/news/tarikh-mujaz-liism-land-krwzr/"
+      }
+    },
+    {
+      "slug": "fahm-mustalahat-musaadat-alsaayiq",
+      "sample": true,
+      "title": "فهم مصطلحات أنظمة مساعدة السائق",
+      "summary": "مثبّت السرعة التكيّفي وتتبّع المسار والتنبيه قبل التصادم — مسرد للمصطلحات وما يقوم به كل نظام فعلياً.",
+      "image": {
+        "src": "../../assets/news/media/story-assist.svg",
+        "alt": "رسم تجريدي لأقواس استشعار أمام المركبة",
+        "focal": { "x": 50, "y": 50 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "technology",
+      "tags": ["السلامة", "مسرد", "شرح"],
+      "publishedAt": "2026-06-29",
+      "featured": false,
+      "priority": 10,
+      "counterpart": { "locale": "en", "slug": "understanding-driver-assistance-terms", "href": "../../en/news/" },
+      "seo": {
+        "title": "فهم مصطلحات أنظمة مساعدة السائق | تويوتا الإمارات",
+        "description": "مسرد لأنظمة مساعدة السائق وما يقوم به كل نظام فعلياً.",
+        "canonical": "/ar/news/fahm-mustalahat-musaadat-alsaayiq/"
+      }
+    },
+    {
+      "slug": "ma-yahduth-athna-tasallum-almarkaba",
+      "sample": true,
+      "title": "ما الذي يحدث أثناء تسلّم المركبة",
+      "summary": "نظرة خطوة بخطوة على موعد التسليم والمستندات المطلوبة والإعدادات التي يُستحسن ضبطها قبل أول رحلة.",
+      "image": {
+        "src": "../../assets/news/media/story-handover.svg",
+        "alt": "رسم تجريدي لتسليم مفتاح ومستندات",
+        "focal": { "x": 50, "y": 50 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "ownership",
+      "tags": ["إرشادات", "الملكية"],
+      "publishedAt": "2026-06-22",
+      "featured": false,
+      "priority": 11,
+      "counterpart": { "locale": "en", "slug": "what-happens-during-a-vehicle-handover", "href": "../../en/news/" },
+      "seo": {
+        "title": "ما الذي يحدث أثناء تسلّم المركبة | تويوتا الإمارات",
+        "description": "نظرة خطوة بخطوة على موعد تسليم المركبة والمستندات المطلوبة.",
+        "canonical": "/ar/news/ma-yahduth-athna-tasallum-almarkaba/"
+      }
+    },
+    {
+      "slug": "kayfa-tashkul-sibaqat-altahammul-sayarat-altariq",
+      "sample": true,
+      "title": "كيف تُشكّل سباقات التحمّل سيارات الطريق",
+      "summary": "أهداف التبريد والديناميكا الهوائية والاعتمادية التي تُضبط على الحلبة، والمسار الهندسي الذي تسلكه إلى طرازات الإنتاج.",
+      "image": {
+        "src": "../../assets/news/media/story-endurance.svg",
+        "alt": "رسم تجريدي لخط زمني لمرحلة سباق طويلة",
+        "focal": { "x": 45, "y": 50 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "motorsport",
+      "tags": ["رياضة السيارات", "الهندسة"],
+      "publishedAt": "2026-06-15",
+      "featured": false,
+      "priority": 12,
+      "counterpart": { "locale": "en", "slug": "how-endurance-racing-shapes-road-cars", "href": "../../en/news/" },
+      "seo": {
+        "title": "كيف تُشكّل سباقات التحمّل سيارات الطريق | تويوتا الإمارات",
+        "description": "كيف تصل أهداف التبريد والديناميكا الهوائية والاعتمادية إلى طرازات الإنتاج.",
+        "canonical": "/ar/news/kayfa-tashkul-sibaqat-altahammul-sayarat-altariq/"
+      }
+    },
+    {
+      "slug": "dakhil-khatt-fahs-aljawda",
+      "sample": true,
+      "title": "داخل خط فحص الجودة",
+      "summary": "الفحوصات التي تمرّ بها المركبة قبل مغادرة الخط، وكيف تعود بيانات الفحص لتغذية عملية الإنتاج.",
+      "image": {
+        "src": "../../assets/news/media/story-quality.svg",
+        "alt": "رسم تجريدي لشبكة فحص مع نقاط قياس",
+        "focal": { "x": 50, "y": 50 },
+        "width": 1600,
+        "height": 900
+      },
+      "category": "company",
+      "tags": ["التصنيع", "الجودة"],
+      "publishedAt": "2026-06-08",
+      "featured": false,
+      "priority": 13,
+      "counterpart": { "locale": "en", "slug": "inside-a-quality-inspection-line", "href": "../../en/news/" },
+      "seo": {
+        "title": "داخل خط فحص الجودة | تويوتا الإمارات",
+        "description": "الفحوصات التي تمرّ بها المركبة قبل مغادرة الخط وكيف تُستخدم بياناتها.",
+        "canonical": "/ar/news/dakhil-khatt-fahs-aljawda/"
+      }
+    }
+  ]
+}
